@@ -7,4 +7,15 @@ conda activate mxnet
 pip install mxnet==1.4.0
 ```
 
+## MXNet 转 ONNX
+```
+python Mxnet_To_ONNX.py
+```
+
+## ONNX 转 tensorflow
+需要下载 onnx_tf [下载地址](https://github.com/onnx/onnx-tensorflow)
+```
+pip install -e ..
+```
+
 
